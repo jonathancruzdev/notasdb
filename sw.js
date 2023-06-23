@@ -2,7 +2,7 @@ self.addEventListener('install', function(){
 
     const miCache = caches.open('mi-cache-v1').then( cache => {
         return cache.addAll([
-            '/',
+            /* '/', */
             'index.html',
             'app.js',
             'sw.js',
